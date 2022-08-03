@@ -1,0 +1,28 @@
+.container-card{
+    display:flex;
+   
+    flex-wrap: wrap;
+    width:100%;
+    align-items: center;
+    
+
+.img-character{
+    flex-direction: row;
+    justify-content: space-around;
+    border: solid 4px green;
+    border-radius: 5px;
+    margin:5px;
+    padding:5px;
+
+
+    .character-title{
+        color: chartreuse;
+        align-items: center;
+        
+    }
+
+    img{
+        width: 50%;
+    }
+    }
+}

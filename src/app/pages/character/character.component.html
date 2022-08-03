@@ -1,0 +1,10 @@
+<h1>Lista de personajes de Rick y Morty</h1>
+<div class="container">
+
+    <ng-container *ngFor="let characterI of character">
+
+        <app-characters-card [character] ="characterI"></app-characters-card>
+
+    </ng-container>
+
+</div>
